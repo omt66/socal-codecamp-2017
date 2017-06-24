@@ -1,0 +1,17 @@
+<form action="doSearch()">
+    <input name="queryStr" type="text" [(ngModel)]="queryStr" />
+    <button (click)="doSearch()">Search</button>
+</form>
+<div>
+    <gif-card *ngFor="let item of results" [gifInfo]="item" (clicked)="handleClicked(item)"></gif-card>
+</div>
+
+<div *ngIf="selectedItem">
+    <div class="container" (click)="closeDetailedView()">
+        <div class="center">
+            <div class="detailed-view">
+                <big-card [gifInfo]="selectedItem" (clicked)="handleClick4BigCard()"></big-card>
+            </div>
+        </div>
+    </div>
+</div>

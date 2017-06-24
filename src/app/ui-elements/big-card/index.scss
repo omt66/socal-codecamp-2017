@@ -1,0 +1,14 @@
+.circle {
+    margin: 10px;
+    border-radius: 5%;
+    width: 320px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0 0 5px #555, 0px 2px 7px #222;
+}
+
+.clickable {
+    cursor: pointer;
+}

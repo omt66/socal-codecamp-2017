@@ -1,0 +1,16 @@
+.circle {
+    margin: 10px;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    box-shadow: 0 0 5px #555, 0px 2px 7px #222;
+    float: left;
+}
+
+.clickable {
+    cursor: pointer;
+}
