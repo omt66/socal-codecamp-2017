@@ -1,8 +1,9 @@
 # Giphydemo
 
-SoCal presentation (PDF): Angular-20170624d.pdf located in this directory.
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
+
+Also you can find the SoCal presentation (PDF) here: Angular-20170624d.pdf located in this directory.
+
 
 ## Development server
 
